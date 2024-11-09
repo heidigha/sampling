@@ -10,12 +10,45 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Heidi Ghafoor
 
 ```
-Please write your explanation here...
+The code has several sampling stages:
 
-```
+#1
+
+a) Initial Event Assignment:
+Sample size: 1000 total (200 wedding + 800 brunch attendees)
+Sampling frame: Fixed sizes for each event type
+
+b)  Infection Sampling:
+Sample size: 10% of total population (ATTACK_RATE = 0.10)
+Sampling frame: All attendees
+Distribution: Random sampling without replacement
+
+c) Primary Contact Tracing:
+Sample size: Variable (depends on number infected)
+Sampling frame: Only infected individuals
+Distribution: Bernoulli trials with p=0.20 (TRACE_SUCCESS)
+
+#2  The result of running whitby_covid_tracing.py does not reproduce the same graphs from the original blog posts.
+
+#3
+Reproducibility Issues:
+Running the code multiple times with 1000 repetitions shows variation in results because:
+No random seed is set
+Each run generates different random numbers for infections and tracing
+
+#4
+Changes made:
+Added global random seed: np.random.seed(42)
+Created separate random state for each simulation iteration: rng = np.random.RandomState(42 + m)
+Used the local random state (rng) instead of global numpy random functions
+Reduced simulation count to 1000 
+
+The output does not matche whitby_covid_tracing.py
+exactly (due to different random seeds and fewer iterations), 
+but it will produce identical results.
 
 
 ## Criteria
