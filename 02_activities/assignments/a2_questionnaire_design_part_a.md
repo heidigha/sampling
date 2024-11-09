@@ -18,28 +18,73 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 The number of your chosen topic: `#`
 
-Describe the purpose of your survey:
+This survey aims to identify the primary factors contributing to high turnover rates among entry- and lower-level positions at our tech company. 
+The insights gathered will help understand employee satisfaction issues and inform targeted retention strategies to reduce turnover rates across departments.
 ```
-write your answer here...
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+Target Population: All current entry- and lower-level employees across all departments, as well as employees who have left the company within the past 6 months.
 
-Your 5-10 question survey:
+Sampling Frame: HR database containing contact information for:
+- Current employees in entry- and lower-level positions 
+- Former employees who left within the last 6 months
+
+Sampling Units: Individual employees (current and former)
+
+Sampling Strategy: Random select to obtain feedback from departments with the highest turnover rates to better understand specific issues in those areas. 
+For former employees: conduct survey due to the smaller population size.
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been working/did you work at the company?
+   □ Less than 6 months
+   □ 6 months - 1 year
+   □ 1-2 years
+   □ 2+ years
+
+2. On a scale of 1-5, how satisfied are/were you with the following aspects of your job? (1 = Very Dissatisfied, 5 = Very Satisfied)
+   - Base salary
+   - Benefits package
+   - Career advancement opportunities
+   - Work-life balance
+   - Relationship with immediate supervisor/manager
+   - Training and development opportunities
+
+3. What is the primary reason you are considering leaving/left the company? 
+   □ Better compensation elsewhere
+   □ Limited career growth opportunities
+   □ Poor work-life balance
+   □ Conflict with management
+   □ Company culture
+   □ Personal reasons
+   □ Other (please specify): _______
+
+4. Which of the following changes would most improve/would have improved your job satisfaction? 
+   □ Higher salary
+   □ Better benefits
+   □ More flexible work arrangements
+   □ Clear career progression path
+   □ Better management support
+   □ More training opportunities
+   □ Other (please specify): _______
+
+5. How well does/did your role align with your career goals?
+   □ Perfectly aligned
+   □ Somewhat aligned
+   □ Neutral
+   □ Somewhat misaligned
+   □ Completely misaligned
+
+6. What aspects of the company culture do/did you find most challenging? 
+   □ Communication transparency
+   □ Work expectations
+   □ Team dynamics
+   □ Decision-making processes
+   □ Recognition practices
+   □ None
+   □ Other (please specify): _______
+
+7. Please provide any additional feedback about what the company could do to better support and retain its employees: 
 ```
 
 ## Rubric
