@@ -33,6 +33,9 @@ Sampling Frame: HR database containing contact information for:
 
 Sampling Units: Individual employees (current and former)
 
+Observational Units: Individual survey responses from current and former employees. 
+Each response represents one employee's experiences, perceptions, and attitudes about their employment at the company.
+
 Sampling Strategy: Random select to obtain feedback from departments with the highest turnover rates to better understand specific issues in those areas. 
 For former employees: conduct survey due to the smaller population size.
 ```
