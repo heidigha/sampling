@@ -31,6 +31,16 @@ Sample size: Variable (depends on number infected)
 Sampling frame: Only infected individuals
 Distribution: Bernoulli trials with p=0.20 (TRACE_SUCCESS)
 
+d) Secondary Contact Tracing
+Sample Size: Variable (depends on primary tracing results)
+Sampling Frame: Events with ≥2 traced cases
+Sampling Method: Deterministic based on threshold
+
+e)Simulation Repetition
+
+
+The simulation employsd multi-stage sampling process that models both the spread of infections and the contact tracing process. from initial infections through primary and secondary tracing - introduces systematic biases that favor detecting cases from larger events.
+
 #2  The result of running whitby_covid_tracing.py does not reproduce the same graphs from the original blog posts.
 
 #3
