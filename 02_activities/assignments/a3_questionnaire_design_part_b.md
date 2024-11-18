@@ -3,20 +3,64 @@
 ## Requirements
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
-    ```
-    write your answer here...
+ The sample should be reasonably representative of the target population, though there are some potential limitations to consider:
+
+Strengths:
+- access to a complete HR database for both current and former employees, minimizing coverage error
+- the sampling strategy prioritizes departments with highest turnover, helping focus on the most affected areas
+
+Limitations:
+- Response bias may occur as former employees might be less likely to respond, potentially underrepresenting their perspectives
+- Focusing on high-turnover departments, while strategic, might miss important insights from more stable departments
+- Recent departures (within 6 months) may not capture longer-term turnover patterns or reasons for leaving from earlier periods
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
-    ```
-    write your answer here...
+   Yes, I would make several changes to improve the survey quality and address potential ethical concerns:
+
+1. Add an informed consent section explaining:
+   - Purpose of data collection
+   - How data will be used
+   - Confidentiality measures
+   - Right to skip questions or withdraw
+
+2. Add demographic questions while ensuring anonymity:
+   - Department (broad categories to maintain confidentiality)
+   - Job level (entry vs. lower-level)
+   - Length of time in current role
+
+3. Revise Question 3 to:
+   - Allow multiple selections since turnover often has multiple causes
+   - Add "Prefer not to disclose" option
+
+
+4. Add open-ended questions:
+   - "What initially attracted you to work at this company?"
+   - "What aspects of your job do/did you find most rewarding?"
+
+These changes aim to:
+- Improve ethical considerations through informed consent
+- Reduce various forms of response bias
+- Better protect respondent privacy
+- Provide more context for understanding turnover patterns..
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
-    ```
-    write your answer here...
+While an observational study could provide some insights into turnover, it would not fully satisfy the survey's purpose for several reasons:
+
+1. Many key factors are not directly observable:
+   - Employee satisfaction levels
+   - Personal career goals and aspirations
+   - Reasons for leaving
+   - Suggested improvements
+
+2. Observable metrics like performance reviews, promotion rates, or attendance could indicate dissatisfaction but wouldn't reveal underlying causes
+
+3.  Exit interviews, while observational, often suffer from social desirability bias as departing employees may want to maintain professional relationships
+
+Therefore, while supplemental observational data (like turnover rates, promotion patterns, salary comparisons) could provide insight , a survey is necessary to directly capture employees' perspectives, experiences, and suggestions for improvement.
     ```
 
 ## Why am I doing this assignment?
